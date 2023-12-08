@@ -8,7 +8,6 @@ use genpdf::Alignment;
 use genpdf::Element as _;
 use genpdf::style::Style;
 use genpdf::elements::FrameCellDecorator;
-use genpdf::elements::TableLayout;
 
 #[derive(Serialize, Deserialize, Debug, Default, Clone)]
 struct InvUser {
